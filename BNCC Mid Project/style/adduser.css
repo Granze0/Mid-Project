@@ -1,0 +1,117 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.nav{
+    background-color:rgba(35, 34, 36, 0.808); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.logo{
+    font-size:25px;
+    font-weight: 900px;
+}
+
+.logo p{
+    color:white;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.right-links a{
+    padding:0 30px;
+    color: #ffffff;
+}
+.btn{
+    height: 35px;
+    background: rgba(35, 34, 36, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+    
+
+}
+
+.profile-btn{
+    width: 125px;
+}
+
+.btn:hover{
+    opacity: 0.82;
+}
+.submit{
+    width: 100%;
+}
+.link{
+    margin-bottom: 15px;
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    background: rgba(2, 2, 2, 0.808); 
+    height: 70px;
+    border-radius: 5px;
+    padding: 9px;
+    
+}
+
+.add-user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color:rgba(35, 34, 36, 0.808);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2c2d2c;
+}
